@@ -145,3 +145,8 @@ section:last-child {
     color: white;
     cursor: pointer;
 }
+
+.categories button:hover {
+    background-color: #38b2ac;
+    color: white;
+}
