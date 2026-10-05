@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VisionVault</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>VisionVault</h1>
+
+        <p>Discover beautiful images from around the world.</p>
+    </header>
+
+    <main>
+
+        <section>
+
+            <form id="search-form">
+
+                <label for="search-input">
+                    Search for images
+                </label>
+
+                <input
+                    id="search-input"
+                    type="search"
+                    placeholder="Search images..."
+                >
+
+                <button id="search-button" type="submit">
+                    Search
+                </button>
+
+            </form>
+            <div class="categories">
+                 <button type="button">Nature</button>
+                 <button type="button">Animals</button>
+                 <button type="button">Cities</button>
+            </div>
+
+        </section>
+
+        <section>
+
+            <p id="result-count">
+                Showing 0 results
+            </p>
+
+            <p id="empty-message">
+                Search for something to see images here.
+            </p>
+
+            <div id="results"></div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
