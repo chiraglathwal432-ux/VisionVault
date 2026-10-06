@@ -1,3 +1,13 @@
 # VisionVault
 
-VisionVault is an image-search website where users will be able to search for images by topic. I chose a dark blue-green colour theme to give the website a calm and modern look. I added category suggestion buttons so users can quickly choose common topics. I also added a result-count placeholder so users can see how many images will eventually appear.
+VisionVault is an image-search website that allows users to search for images from around the world. It uses the Wikimedia Commons API to fetch real images based on the user's search. I chose a green and gold colour theme to give the website a natural and premium appearance. I also added category chips and a result-count display to make searching easier and show users how many results were found.
+
+## Features
+
+- Search for images
+- Fetch images using the Wikimedia Commons API
+- Responsive image grid
+- Result count
+- Nature, Animals, and Cities category chips
+- Empty search message
+- Mobile-friendly layout
